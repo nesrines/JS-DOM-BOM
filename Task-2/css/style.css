@@ -4,8 +4,13 @@
   box-sizing: border-box;
 }
 
+header {
+  background-color: #f6f7f8;
+  padding: 0 30px;
+  line-height: 1.15;
+}
 header nav {
-  padding: 15px;
+  padding: 15px 0;
 }
 header nav a {
   color: #666666;
@@ -30,4 +35,31 @@ header nav #Karyera:hover {
   color: #ffffff;
   background-color: #0056c1;
   text-decoration: none;
+}
+header p {
+  color: #666666;
+  font-size: 14px;
+  font-weight: 300;
+  padding: 0 8px;
+  margin-bottom: 0;
+}
+header p .fa-magnifying-glass {
+  color: #bbbbbb;
+  font-size: smaller;
+  margin-right: 8px;
+}
+header p .fa-phone {
+  margin-right: 4px;
+}
+header .active .fa-amagnifying-glass {
+  color: #0073ff;
+}
+header .active span {
+  color: #0056c1;
+}
+
+#SearchBar input {
+  color: #9f9f9f;
+  font-size: 18px;
+  font-weight: 300;
 }/*# sourceMappingURL=style.css.map */
