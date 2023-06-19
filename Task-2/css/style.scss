@@ -62,5 +62,12 @@ header {
         color: #9f9f9f;
         font-size: 18px;
         font-weight: 300;
+        height: 75px;
+    }
+}
+@media screen and (min-width: 992px) {
+    input {
+        font-size: 40px;
+        height: 140px;
     }
 }
