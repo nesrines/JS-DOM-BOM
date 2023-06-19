@@ -51,7 +51,7 @@ header p .fa-magnifying-glass {
 header p .fa-phone {
   margin-right: 4px;
 }
-header .active .fa-amagnifying-glass {
+header .active .fa-magnifying-glass {
   color: #0073ff;
 }
 header .active span {
@@ -62,12 +62,31 @@ header .active span {
   color: #9f9f9f;
   font-size: 18px;
   font-weight: 300;
+  width: 90%;
   height: 75px;
+  padding: 40px;
+  border: none;
+  outline: none;
+}
+#SearchBar ::-moz-placeholder {
+  color: #9f9f9f;
+}
+#SearchBar ::placeholder {
+  color: #9f9f9f;
+}
+#SearchBar i {
+  color: #999999;
+  font-size: 36px;
+  margin-right: 40px;
 }
 
-@media screen and (min-width: 992px) {
-  input {
+@media screen and (min-width: 768px) {
+  #SearchBar input {
     font-size: 40px;
+  }
+}
+@media screen and (min-width: 992px) {
+  #SearchBar input {
     height: 140px;
   }
 }/*# sourceMappingURL=style.css.map */
